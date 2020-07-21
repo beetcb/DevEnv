@@ -134,7 +134,7 @@
   ```
   比如使用git
 
-  ![](https://tvax4.sinaimg.cn/large/005K67iLgy1ggxbm4katgj318q0ky7wh.jpg)
+  ![image](https://tva3.sinaimg.cn/large/005K67iLgy1ggyfsjos64j31j70pr1ky.jpg)
 就算是vim插件的安装也可以走代理（直接设置http proxy做不到）
   ```bash
   proxychains4 nvim +PlugInstall

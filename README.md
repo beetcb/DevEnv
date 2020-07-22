@@ -231,3 +231,27 @@ Windows Registry Editor Version 5.00
   alias px='proxychains4'
   alias sudo='sudo ' #防止出现command not found
   ```
+### 使用autohotkey简化输入
+```bash
+;;;hotStr use `,,` as suffix
+:*:pwgit,,::xx
+:*:@,,::zpharno@163.com
+:*:159,,::15997718672
+:*:pw,,::1414
+;;;CapsLock to ctrl
++CapsLock::CapsLock
+CapsLock::Ctrl
+;;;Alt+hjkl => direction key
+!h::
+    Send, {Left}
+    Return
+!j::
+    Send, {Down}
+    Return
+!k::
+    Send, {Up}
+    Return
+!l::
+    Send, {Right}
+    Return
+```

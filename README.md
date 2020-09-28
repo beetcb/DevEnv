@@ -187,9 +187,12 @@ CapsLock::Ctrl
 ```
 
 
-### Grub
+### Surface kernel & Grub boot
+
+https://wiki.archlinux.org/index.php/GRUB_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Tips_and_tricks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E5%A4%9A%E4%B8%AA%E5%90%AF%E5%8A%A8%E6%9D%A1%E7%9B%AE
 
 ```bash
+sudo pacman -S linux-surface-headers linux-surface surface-ipts-firmware iptsd
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
@@ -197,4 +200,11 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```bash
 systemctl enable bluetooth.service  and
 systemctl start bluetooth.service
+```
+
+### Chinese fonts & emoji
+
+```bash
+# https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+noto-fonts-emoji
 ```

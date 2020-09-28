@@ -206,5 +206,5 @@ systemctl start bluetooth.service
 
 ```bash
 # https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
-noto-fonts-emoji
+sudo pacman -S noto-fonts-emoji
 ```

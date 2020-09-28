@@ -186,3 +186,9 @@ CapsLock::Ctrl
     Return
 ```
 
+
+### Grub
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```

@@ -198,8 +198,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ### Bluetooth
 ```bash
-systemctl enable bluetooth.service  and
-systemctl start bluetooth.service
+systemctl enable --now bluetooth.service
 ```
 
 ### Chinese fonts & emoji

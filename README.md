@@ -1,5 +1,4 @@
-### pre
-> 首先需要改变一下微软拼音的双拼方案
+### Pin Yin
 > - register `computer\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS`
 > - String name `UserDefinedDoublePinyinScheme0`
 > - String value `小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`

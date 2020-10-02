@@ -41,7 +41,7 @@ nvim /etc/locale.conf # LANG=en_US.UTF-8
 
 # [host related]
 nvim /etc/hostname # be
-nvim /etc/hosts # 127.0.0.1	localhost ::1		localhost 127.0.1.1	be.localdomain	be
+nvim /etc/hosts # 127.0.0.1	localhost ::1		localhost 127.0.1.1	be.localdomain	be  199.232.4.133 raw.githubusercontent.com
 
 # [Initramfs]
 mkinitcpio -P

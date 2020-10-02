@@ -52,3 +52,8 @@ nvim /etc/sudoers # uncummnet whell all
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg 
 sync 
+
+# [🐈]
+exit
+umount -R /mnt
+reboot

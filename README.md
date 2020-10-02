@@ -12,7 +12,7 @@ sudo pacman -S zsh
 chsh -s $(which zsh)
 ```
 
-［`n`](https://github.com/tj/n)　for `node`: 
+［`n`](https://github.com/tj/n): 
 
 ```bash
 npm i -g n

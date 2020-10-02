@@ -12,7 +12,7 @@ sudo pacman -S zsh
 chsh -s $(which zsh)
 ```
 
-［`n`］(https://github.com/tj/n)　for `node`: 
+［`n`](https://github.com/tj/n)　for `node`: 
 
 ```bash
 npm i -g n
@@ -53,7 +53,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ### Chinese fonts & emoji
 
-[chinese font](# https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+[chinese font](https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
 [emoji]
 ```bash

@@ -33,11 +33,12 @@ git clone git@github.com:beetcb/dotdotdot.git
 cd dotdotdot
 ./install
 ```
-
-- [pure](https://github.com/sindresorhus/pure)
-- [zplug](https://github.com/zplug/zplug)
-- [vim-plug](https://github.com/junegunn/vim-plug)
-- [colorls](https://github.com/athityakumar/colorls)
+[shell]
+- [Dracula](https://draculatheme.com/konsole)
+- [`pure`](https://github.com/sindresorhus/pure)
+- [`zplug`](https://github.com/zplug/zplug)
+- [`vim-plug`](https://github.com/junegunn/vim-plug)
+- [`colorls`](https://github.com/athityakumar/colorls)
 
 ### Surface kernel & Grub boot
 

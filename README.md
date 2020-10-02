@@ -5,7 +5,7 @@
 ```bash
 sudo pacman -S git which openssh make gcc ruby nodejs npm neovim chromium
 ```
-［`zsh`］(https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH):
+［`zsh`］:
 
 ```bash
 sudo pacman -S zsh 

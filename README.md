@@ -3,7 +3,7 @@
 ［Prerequisites］:
 
 ```bash
-sudo pacman -S git which openssh make gcc ruby nodejs npm neovim chromium latte-dock
+sudo pacman -S git which openssh make gcc ruby nodejs npm neovim chromium latte-dock dolphin
 ```
 ［`zsh`］:
 

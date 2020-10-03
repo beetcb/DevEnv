@@ -1,4 +1,6 @@
 > Wifi: `networkmanager-openrc`  `iwd-openrc`
+
+> Openrc: https://wiki.artixlinux.org/Main/OpenRC#Installation_of_services
 ### init
 
 ［Prerequisites］:

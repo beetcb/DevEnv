@@ -57,6 +57,9 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg 
 sync 
 
+# [services]
+systemctl enable bluetooth sddm Networkmanager
+
 # [🐈]
 exit
 umount -R /mnt

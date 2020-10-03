@@ -59,7 +59,9 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ### Chinese fonts & emoji
 
 [Chinese Font](https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
-
+```bash
+sudo pacman -S wqy-microhei
+```
 [Emoji]
 ```bash
 sudo pacman -S noto-fonts-emoji

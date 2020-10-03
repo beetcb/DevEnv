@@ -71,8 +71,8 @@ nvim /etc/conf.d/xdm        <- edit and set DISPLAYMANAGER="sddm"
 
 # [🐈]
 rc-update add xdm default
-rc-update add NetworkKanager default
-rc-update add bluetooth default
+rc-update add NetworkManager default
+rc-update add bluetoothd default
 
 exit
 umount -R /mnt

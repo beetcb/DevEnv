@@ -18,7 +18,7 @@ exit
 timedatectl set-ntp true
 
 # [Partition & Format & Mount]
-gdisk /dev/nvme0n1
+cfdisk /dev/nvme0n1
 
 mkfs.fat /dev/nvme0n1p1
 mkfs.ext4 /dev/nvme0n1p2
@@ -30,11 +30,11 @@ mount /dev/nvme0n1p1 /mnt/boot/efi
 ...
 
 # [init with `pacstrap`]
-pacstrap /mnt base base-devel openrc linux linux-firmware plasma iwl neovim intel-ucode grub efibootmgr konsole NerworkManager
+basestrap /mnt base base-devel openrc linux linux-firmware plasma iwl neovim intel-ucode grub efibootmgr konsole nerworkmanager-openrc
 
 # [chroot]
 genfstab -U /mnt >> /mnt/etc/fstab
-arch-chroot /mnt
+artools-chroot /mnt
 
 # [timezone]
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -54,7 +54,7 @@ mkinitcpio -P
 
 # [user]
 passwd # ...
-add-user -m -G wheel beet
+useradd -m -G wheel beet
 passwd beet
 nvim /etc/sudoers # uncummnet whell all
 
@@ -63,7 +63,17 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg 
 sync 
 
+# [sddm]
+pacman -S displaymanager-openrc sddm
+rc-update add xdm default
+nvim /etc/conf.d/xdm        <- edit and set DISPLAYMANAGER="sddm"
+
+
 # [🐈]
+rc-update add xdm default
+rc-update add NetworkKanager default
+rc-update add bluetooth default
+
 exit
 umount -R /mnt
 reboot

@@ -3,10 +3,16 @@ lsblk
 dd bs=4M if=/path/to/archlinux.iso of=/dev/sdx status=progress && sync
 
 # [wifi connection]
-iwctl # wpa_supplicant / dhcpcd
-station wlan1 scan
-station wlan1 connect beet-5G
+ip a
+rfkill unblock wifi
+ip link set mlan0 up
+connmanctl 
+scan wifi
+services
+agent on
+connect xxx
 ####type passwd####
+exit
 
 # [check time]
 timedatectl set-ntp true

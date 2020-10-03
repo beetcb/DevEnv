@@ -30,10 +30,10 @@ mount /dev/nvme0n1p1 /mnt/boot/efi
 ...
 
 # [init with `pacstrap`]
-basestrap /mnt base base-devel openrc linux linux-firmware plasma iwl neovim intel-ucode grub efibootmgr konsole nerworkmanager-openrc bluedevil bluez-openrc sddm-theme-artix  artix-grub-theme artix-dark-theme artix-branding-base
+basestrap /mnt base base-devel openrc linux linux-firmware plasma iwd neovim intel-ucode grub efibootmgr konsole nerworkmanager-openrc bluedevil bluez-openrc sddm-theme-artix  artix-grub-theme artix-dark-theme artix-branding-base
  
 # [chroot]
-genfstab -U /mnt >> /mnt/etc/fstab
+fstabgen -U /mnt >> /mnt/etc/fstab
 artools-chroot /mnt
 
 # [timezone]
@@ -65,7 +65,6 @@ sync
 
 # [sddm]
 pacman -S displaymanager-openrc sddm
-rc-update add xdm default
 nvim /etc/conf.d/xdm        <- edit and set DISPLAYMANAGER="sddm"
 
 

@@ -1,3 +1,4 @@
+> Wifi: `networkmanager-openrc`  `iwd-openrc`
 ### init
 
 ［Prerequisites］:

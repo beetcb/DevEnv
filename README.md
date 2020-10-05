@@ -71,7 +71,5 @@ sudo pacman -S noto-fonts-emoji
 sudo pacman -S fcitx-im fcitx-configtool
 
 # {warning}: this will rewrite .xprofile
-echo "export GTK_IM_MODULE=fcitx \n
-export QT_IM_MODULE=fcitx \n
-export XMODIFIERS="@im=fcitx"" > ~/.xprofile
+echo "export GTK_IM_MODULE=fcitx \nexport QT_IM_MODULE=fcitx \nexport XMODIFIERS="@im=fcitx"" > ~/.xprofile
 ```

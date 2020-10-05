@@ -84,3 +84,4 @@ Icons: `Flatery`
 
 Task Bar: replace default with `Icons-only Task Bar`
 
+Magic Lamp: [System settings / Workplace Behavior / Desktop Effects / Magic Lamp]

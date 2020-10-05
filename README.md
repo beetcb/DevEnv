@@ -73,3 +73,14 @@ sudo pacman -S fcitx-im fcitx-configtool
 # {warning}: this will rewrite .xprofile
 echo "export GTK_IM_MODULE=fcitx \nexport QT_IM_MODULE=fcitx \nexport XMODIFIERS="@im=fcitx"" > ~/.xprofile
 ```
+
+### Boring stuff
+
+Application Launcher icon: `artixlinux icon`
+
+Theme: `Aritim-dark`
+
+Icons: `Flatery`
+
+Task Bar: replace default with `Icons-only Task Bar`
+

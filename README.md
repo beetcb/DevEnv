@@ -66,3 +66,11 @@ sudo pacman -S wqy-microhei
 ```bash
 sudo pacman -S noto-fonts-emoji
 ```
+[pinyin]
+```bash
+sudo pacman -S fcitx-im fcitx-configtool
+# {warning}: this will rewrite .xprofile
+echo "export GTK_IM_MODULE=fcitx \
+export QT_IM_MODULE=fcitx \
+export XMODIFIERS="@im=fcitx"" >> ~/.xprofile
+```

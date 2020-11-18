@@ -54,8 +54,8 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Bluetooth
-
-
+https://wiki.archlinux.org/index.php/bluetooth
+[ear buds](https://bbs.archlinux.org/viewtopic.php?id=222083)
 ### Chinese fonts & emoji
 
 [Chinese Font](https://wiki.archlinux.org/index.php/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))

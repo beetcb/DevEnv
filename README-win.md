@@ -159,10 +159,10 @@ gen -> git set gpg.program 'PATH' -> git set user.signingkey 'key' -> git config
 
 ```ps1
 function prompt { 
+  # Get current working dir
   $curPath = $PWD.ProviderPath
-  if ($curPath -eq $HOME) {
-    $curPath = '~'
-  }
+  # Replace $HOME with ~
+  $curPath = $curPath.Replace("$HOME", '~')
   Write-Host " $curPath" -ForegroundColor Cyan
   Write-Host "›" -ForegroundColor Magenta -NoNewline
   return ' '

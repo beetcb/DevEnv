@@ -128,27 +128,27 @@
 
 ### autohotkey
 ```bash
-;;;hotStr use `,,` as suffix
-:*:pwgit,,::xx
-:*:@,,::zpharno@163.com
-:*:159,,::111111
-:*:pw,,::1414
-;;;CapsLock to ctrl
-+CapsLock::CapsLock
-CapsLock::Ctrl
-;;;Alt+hjkl => direction key
-!h::
-    Send, {Left}
-    Return
-!j::
-    Send, {Down}
-    Return
-!k::
-    Send, {Up}
-    Return
-!l::
-    Send, {Right}
-    Return
+-----BEGIN PGP MESSAGE-----
+
+hQIMA36uwMXQGo4nAQ//TGrpDdTypACVmI61VATA9RYq0PUwiLZKELTxKu7zwEJt
+0tF5QIDUVV7auM4DwW7MO1v4EbQxoI72clNNJbTvM9tTeN8t3O+aXKNGYXU9V+Jt
+xgttCSJSb2eAOHjWDRpmZlVQvSioazMCgeFu7VfXSxwCxQlUZwbFPnIHkxWFOPUz
+ph/YYIt5IMs+fIiMYpUlWo1uIM0hIl3d1AL5XzERVv+9gNHg34PltRuVhcs4UovC
+tmD/ngokq1sj9AftybOl4OqL0SVravsGXyupPnG3BITIICIBZHeBnDVqRMb69l/J
+zeiyEYLTyD+lGsWNF5ZTlNWENoNxeK5VTG1BlYF0Ho5RFdYFsaggNQ7+WPKua3kx
+Vh5V9/59CX/bzPYuVqPIJ3750i3ayffJ64mqcWM1RAayO6VGfl1aXfEVt8pwWirJ
+iewxiph2NU9zjLtNDKlMfDMRHfGUeSXnsq1tPybn1jRrX9poC8TqSN8nD+kwAzN7
+bp0vG7d0Y4azuqInEGj/bocmuPE+qQvMHuvWR+2f2D908hwgY6n7NsvLsiieQ9eI
+OkbxcwTLB4Z7L89tScSD6vJYr4Anuod7rRWTMi50sDe+mjW8sHuxMO7L+2WH/J0t
+gVjHyLm8ZnUIoyz2NZJFHCEXSCjovw5mx1mVJvyXTvbDnIeAOnu3iWvucclxxPXS
+wEQB4c2gID/3/apoA/vzD8EiSGIDBDIbWO9bVZmS89rlyZgaZweM9qyEJPUEupWJ
+LGsAJN6L044rPhemzZEsNbo8BKilU8br8qf2TZQ5/Lm2epYOEaM4vZxIYh+9fmNV
+kUgvPrnsDlEKPHtS6AxYk+NJ54EAhDk2vNKCtiIuHvi7Wh19p2Wfm5qjYeTiSz5G
+MNZh36Knl9T5QFeETvbxqoSsmJohdgCxjAUff/dqaKhBjgv0OL0aqTqhUqPxz3AK
+dDCOUZ/prFJaxUjn9hYfKYo3TBFopz8rKc1jnFK7ksD3EomhSxCPT8v6yam7mQg5
+biaTdhIgtCFqIYyv579EM4zyWeftkg==
+=5XBa
+-----END PGP MESSAGE-----
 ```
 
 ### gpg key

@@ -158,13 +158,22 @@ gen -> git set gpg.program 'PATH' -> git set user.signingkey 'key' -> git config
 ### pwsh profile
 
 ```ps1
-function prompt { 
-  # Get current working dir
-  $curPath = $PWD.ProviderPath
-  # Replace $HOME with ~
-  $curPath = $curPath.Replace("$HOME", '~')
-  Write-Host " $curPath" -ForegroundColor Cyan
-  Write-Host "›" -ForegroundColor Magenta -NoNewline
-  return ' '
-} 
+# CDN for NPM
+$cnpm = '--registry=https://registry.npm.taobao.org'
+
+# alias
+function px {
+    proxychains -q $args
+}
+function  l {
+    fd -d 1
+}
+function c {
+    bat -p $args
+}
+Set-Alias vim nvim 
+Set-Alias cml commitlive
+
+# Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/pararussel.omp.json") 
+Invoke-Expression (&starship init powershell)
 ```
